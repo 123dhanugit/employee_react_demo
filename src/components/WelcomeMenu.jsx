@@ -13,8 +13,8 @@ function WelcomeMenu() {
 
    
     <div class="space-x-6">
-      <Link >to('/login') class="hover:text-yellow-300 transition"Login</Link>
-      <Link> to('/register') class="bg-yellow-400 text-blue-800 px-4 py-2 rounded-lg hover:bg-yellow-300 transition"
+      <Link to={'/login'} class="hover:text-yellow-300 transition">Login</Link>
+      <Link to={'/register'} class="bg-yellow-400 text-blue-800 px-4 py-2 rounded-lg hover:bg-yellow-300 transition">
         Register
       </Link>
     </div>

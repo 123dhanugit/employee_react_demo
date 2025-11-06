@@ -91,7 +91,7 @@ function Login() {
 
         <p className="text-center text-gray-500 text-sm mt-6">
           Don’t have an account?{" "}
-          <Link >to'(/register') className="text-blue-600 hover:underline"
+          <Link to={'/register'} className="text-blue-600 hover:underline">
             Sign up
           </Link>
         </p>
